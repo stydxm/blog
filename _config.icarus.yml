@@ -110,18 +110,23 @@ navbar:
         存档: /archives
         分类: /categories
         标签: /tags
+        友链: /friends
+        关于: /about
     # Links to be shown on the right of the navigation bar
-    links:
-        GitHub:
-            icon: fab fa-github
-            url: https://github.com/stydxm
+    # links:
+    #     GitHub:
+    #         icon: fab fa-github
+    #         url: https://github.com/stydxm
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
     links:
-        CC BY-NC-SA 4.0:
+        Creative Commons:
             icon: fab fa-creative-commons
-            url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+            url: https://creativecommons.org/
+        email:
+            icon: fa fa-at
+            url: mailto:i@stydxm.com
         GitHub:
             icon: fab fa-github
             url: https://github.com/stydxm
@@ -143,7 +148,7 @@ article:
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
         fold: unfolded
     # Whether to show estimated article reading time
-    readtime: true
+    readtime: false
     # Whether to show updated time. For "auto", shows article update time only when page.updated is set and it is different from page.date
     update_time: auto
     # Article licensing block
@@ -225,9 +230,9 @@ widgets:
         # Author name
         author: stydxm
         # Author title
-        # author_title: Your title
+        author_title: 互联网大海中漂浮的孤岛
         # Author's current location
-        location: 地球
+        # location: 地球
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
@@ -241,9 +246,12 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: https://github.com/stydxm
+            email:
+                icon: fa fa-at
+                url: mailto:i@stydxm.com
             RSS:
                 icon: fas fa-rss
-                url: /
+                url: /atom.xml
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
