@@ -1,6 +1,7 @@
 ---
 title: LG wing：未能展开的未来
 date: 2022-08-05 14:01:35
+update: 2022-08-12 00:33:00
 categories: 数码
 tags: 手机
 cover: https://s1.ax1x.com/2022/08/05/vne01J.md.jpg
@@ -70,6 +71,14 @@ cover: https://s1.ax1x.com/2022/08/05/vne01J.md.jpg
 展开主屏之后的稳定器模式很有创意，可惜硬件上用的是一颗1300w的成像质量很差的超广角摄像头而不是真正的云台，即使在光照充足的条件下，果冻效应和满屏噪点也让画面变得非常不可用，使不错的软件设计无法发挥出来
 
 ![](https://s1.ax1x.com/2022/08/05/vnC2tA.png)
+
+**2022.8.11update** 出去玩顺手拍了点，应该能看出来哪些是主摄哪些是广角
+
+![](https://s1.ax1x.com/2022/08/12/vG7BE4.jpg)
+![](https://s1.ax1x.com/2022/08/12/vG7DUJ.jpg)
+![](https://s1.ax1x.com/2022/08/12/vG7yCR.jpg)
+![](https://s1.ax1x.com/2022/08/12/vG7r59.jpg)
+![](https://s1.ax1x.com/2022/08/12/vG7wbF.jpg)
 
 # 其他性能
 
