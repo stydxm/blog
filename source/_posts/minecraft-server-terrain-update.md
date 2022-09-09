@@ -3,7 +3,7 @@ title: 1.18：无周目老服务器的存档之困
 date: 2022-07-07 21:10:28
 updated: 2022-08-22 00:49:34
 tags: 随想
-cover: https://s1.ax1x.com/2022/08/22/vy7asf.png
+cover: https://s1.ax1x.com/2022/08/22/vy7czq.png
 ---
 > 本文是我做的[这期视频](https://www.bilibili.com/video/BV1xU4y1m7ZC)的文稿，删除服务器相关的内容之后放到博客上来了
 
