@@ -37,7 +37,7 @@ cover: https://s1.ax1x.com/2022/09/10/vOuIvF.jpg
 少了前置摄像头，加了一块屏幕，耗电和成本上升，而且仍然是一个妥协的方案，除非~~手机烫手~~翻来翻去看  
 ![](https://s1.ax1x.com/2022/09/11/vOhmqK.png)
 
-## 正面多屏——南城主流的效率设计
+## 正面多屏——难成主流的效率设计
 像[LG Wing](https://www.lg.com/global/lgwing)、LG的副屏手机壳、[Surface Duo](https://www.microsoft.com/en-us/surface/devices/surface-duo#overview)这样的单面多屏的形态在多任务处理上有着显著的优势，但多出来的结构会导致续航差、机身厚重这些问题，而且也没有手机大厂尝试这样的设计，也一直没能得到主流消费市场的认可  
 ![](https://s1.ax1x.com/2022/09/11/vO4yfH.png)
 
