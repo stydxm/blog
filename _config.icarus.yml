@@ -1,5 +1,5 @@
 # Version of the configuration file
-version: 5.0.0
+version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
@@ -156,7 +156,7 @@ article:
         Creative Commons:
             icon: fab fa-creative-commons
             url: https://creativecommons.org/
-        'CC BY-NA-SA 4.0': 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
+        CC BY-NA-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
 search:
@@ -166,7 +166,7 @@ search:
 comment:
     type: disqus
     # Disqus shortname
-    shortname: 'stydxm'
+    shortname: stydxm
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 # donates:

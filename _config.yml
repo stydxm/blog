@@ -62,3 +62,6 @@ ignore: null
 theme: icarus
 deploy:
   type: ''
+markdown:
+  plugins:
+    - markdown-it-footnote
