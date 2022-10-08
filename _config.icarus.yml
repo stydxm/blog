@@ -407,10 +407,10 @@ plugins:
 providers:
     # Name or URL template of the JavaScript and/or stylesheet CDN provider
     # cdn: jsdelivr
-    cdn: 75cdn
+    cdn: loli
     # Name or URL template of the webfont CDN provider
     # fontcdn: google
-    fontcdn: 75cdn
+    fontcdn: loli
     # Name or URL of the fontawesome icon font CDN provider
     # iconcdn: fontawesome
-    iconcdn: 75cdn
+    iconcdn: loli
