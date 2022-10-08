@@ -3,6 +3,7 @@ title: 整活：玩游戏时，在你笑的时候使用AI自动瞄准
 date: 2022-10-08 20:56:46
 categories: 技术
 tags: AI
+cover: https://s1.ax1x.com/2022/10/08/xGowDA.png
 ---
 
 前两天同学聊天的时候发了个[视频](https://www.bilibili.com/video/BV1Kd4y1i7Nf)，还提了个很有趣的思路——在笑的时候自动瞄准  
