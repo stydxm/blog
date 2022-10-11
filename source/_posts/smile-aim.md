@@ -7,11 +7,12 @@ cover: https://s1.ax1x.com/2022/10/08/xGowDA.png
 ---
 
 前两天同学聊天的时候发了个[视频](https://www.bilibili.com/video/BV1Kd4y1i7Nf)，还提了个很有趣的思路——在笑的时候自动瞄准  
-![](https://s1.ax1x.com/2022/10/08/xGowDA.png)
-![](https://s1.ax1x.com/2022/10/08/xGHqxS.png)
 一看视频挺有意思的，实现应该也不难，试了一下不到一小时就做完了
 
 <!--more-->
+
+![](https://s1.ax1x.com/2022/10/08/xGowDA.png)
+![](https://s1.ax1x.com/2022/10/08/xGHqxS.png)
 
 # 思路
 - 读取摄像头输入，检测表情
