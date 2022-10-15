@@ -1,9 +1,10 @@
 ---
 title: 整活：玩游戏时，在你笑的时候使用AI自动瞄准
 date: 2022-10-08 20:56:46
+update: 2022-10-15 10:51:36
 categories: 技术
 tags: AI
-cover: https://s1.ax1x.com/2022/10/08/xGowDA.png
+cover: https://s1.ax1x.com/2022/10/15/xwOkFK.png
 ---
 
 前两天同学聊天的时候发了个[视频](https://www.bilibili.com/video/BV1Kd4y1i7Nf)，还提了个很有趣的思路——在笑的时候自动瞄准  
@@ -214,6 +215,9 @@ cv2.destroyAllWindows()
 ```
 
 # 效果
+![](https://s1.ax1x.com/2022/10/15/xwOkFK.png)
+> 用的人脸照片是[Pexels上随便找的一张](https://www.pexels.com/zh-cn/photo/2379004/)
+
 在游戏里没敢试，因为怕被反作弊识别然后号没了  
 识别表情、识别人体都没啥问题，也能正确地把鼠标移到屏幕里人的头上  
 ## 表情
