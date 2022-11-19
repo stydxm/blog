@@ -5,6 +5,7 @@ update: 2022-10-15 10:51:36
 categories: 技术
 tags: AI
 cover: https://s1.ax1x.com/2022/10/15/xwOkFK.png
+toc: true
 ---
 
 前两天同学聊天的时候发了个[视频](https://www.bilibili.com/video/BV1Kd4y1i7Nf)，还提了个很有趣的思路——在笑的时候自动瞄准  

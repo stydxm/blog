@@ -7,6 +7,7 @@ categories:
 - [随想]
 tags: 手机
 cover: https://s1.ax1x.com/2022/09/10/vOuIvF.jpg
+toc: true
 ---
 刚发布的iPhone14系列看起来跟上一代几乎没有变化——除了刘海变成了长的已经不像药丸的药丸  
 因为这个药丸，iOS就做了“灵动岛”，在UI设计方面做了点创新  

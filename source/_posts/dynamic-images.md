@@ -6,6 +6,7 @@ categories:
 - [技术]
 - [随想]
 cover: https://s1.ax1x.com/2022/07/26/jzEahd.png
+toc: true
 ---
 
 24号看到GIF发明者去世的消息[2]，觉得GIF早已完成了它的历史使命。
