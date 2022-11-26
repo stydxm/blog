@@ -81,6 +81,20 @@ Google只说了有40TB的TA40和300TB的TA300两种型号，但甚至连一张�
 它可以储存100PB数据，有共计1T的网络带宽，可以在几周内传输EB级的数据
 ~~钱给到位，亚马逊甚至可以给你安排发电机、安排车辆护送、安排安保人员哦~~
 
+# 离谱方法
+> 这里的仅供图一乐 ~~应该没人真的会这么用吧~~
+
+## IPoAC
+全称IP over Avian Carriers，以鸟类为载体的网际协议，来自[rfc 1149](https://www.rfc-editor.org/rfc/rfc1149)，这是一个愚人节rfc  
+
+![](https://s1.ax1x.com/2022/11/26/ztNHfg.png)
+
+[图源](https://zh.wikipedia.org/wiki/%E4%BB%A5%E9%B8%9F%E7%B1%BB%E4%B8%BA%E8%BD%BD%E4%BD%93%E7%9A%84%E7%BD%91%E9%99%85%E5%8D%8F%E8%AE%AE#/media/File:Homing_pigeon.jpg)  
+
+并且还真的有人实践过:2001年四月，挪威卑尔根的一个用户组发了九个“包”  
+
+rfc1149甚至还有修订版，即加上了QoS的[rfc2549](https://www.rfc-editor.org/rfc/rfc2549)和支持IPv6的[rfc6214](https://www.rfc-editor.org/rfc/rfc6214)
+
 [^1]: Tanenbaum, Andrew S. (1989). [Computer Networks](https://archive.org/details/computernetworks02tane/page/57). New Jersey: Prentice-Hall. p. 57. ISBN 0-13-166836-6.  
 [^2]: [Sneakernet](https://en.wikipedia.org/wiki/Sneakernet)  
 [^3]: [Migration & Transfer on AWS](https://aws.amazon.com/cn/products/migration-and-transfer/)  
@@ -90,4 +104,5 @@ Google只说了有40TB的TA40和300TB的TA300两种型号，但甚至连一张�
 [^7]: [AWS Snowmobile – Move Exabytes of Data to the Cloud in Weeks](https://aws.amazon.com/blogs/aws/aws-snowmobile-move-exabytes-of-data-to-the-cloud-in-weeks/)  
 [^8]: [AWS Snowball Edge – More Storage, Local Endpoints, Lambda Functions](https://aws.amazon.com/blogs/aws/aws-snowball-edge-more-storage-local-endpoints-lambda-functions/)  
 [^9]: [Azure Data Box Datasheet](https://azure.microsoft.com/zh-cn/resources/azure-data-box-heavy-datasheet/)
-[^10]: [Transfer Appliance Specifications](https://cloud.google.com/transfer-appliance/docs/4.0/specifications)
+[^10]: [Transfer Appliance Specifications](https://cloud.google.com/transfer-appliance/docs/4.0/specifications)  
+[^11]: [BLUG](https://web.archive.org/web/20140215072548/http://www.blug.linux.no/rfc1149/)
