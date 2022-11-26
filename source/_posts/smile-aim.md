@@ -4,7 +4,7 @@ date: 2022-10-08 20:56:46
 update: 2022-10-15 10:51:36
 categories: 技术
 tags: AI
-cover: https://s1.ax1x.com/2022/10/15/xwOkFK.png
+cover: https://s1.ax1x.com/2022/10/15/xwOkFK.md.png
 toc: true
 ---
 

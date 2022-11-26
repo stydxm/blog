@@ -5,7 +5,7 @@ updated: 2022-07-26 14:28:00
 categories:
 - [技术]
 - [随想]
-cover: https://s1.ax1x.com/2022/07/26/jzEahd.png
+cover: https://s1.ax1x.com/2022/07/26/jzEahd.md.png
 toc: true
 ---
 
