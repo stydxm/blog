@@ -2,6 +2,7 @@
 title: 开启阿里云的.cn域名隐私保护这么难？
 toc: true
 date: 2022-12-31 19:57:17
+update: 2023-01-04 21:53:00
 categories: 技术
 tags: 域名
 excerpt: 2022的最后一天，我竟在折腾这个……
@@ -29,3 +30,10 @@ excerpt: 2022的最后一天，我竟在折腾这个……
 ![](https://s1.ax1x.com/2022/12/31/pSCkeuq.png)
 1.4不知道能不能完成呢
 ![](https://s1.ax1x.com/2022/12/31/pSCkmD0.png)
+
+**2023.1.4 update**
+# 付钱
+1.4打开阿里云看到了账单
+![](https://s1.ax1x.com/2023/01/04/pSkpoq0.jpg)
+居然提示消息还有模板字符串没替换的bug？
+![](https://s1.ax1x.com/2023/01/04/pSk9PIO.jpg)
