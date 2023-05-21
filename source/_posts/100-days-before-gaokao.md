@@ -2,7 +2,7 @@
 title: 高考前的第一百天
 toc: true
 date: 2023-02-27 22:13:55
-categories: 随想
+categories: 流水账
 cover: https://s1.ax1x.com/2023/02/27/ppClxv4.md.jpg
 ---
 
