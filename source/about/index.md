@@ -5,12 +5,15 @@ permalink: /about
 ---
 
 # 关于我
-目前在读高三，爱好主要是计算机和摄影~~（怎么有小学作文的感觉）~~。对OI兴趣不大，但也参加一些竞赛，主要是[NOC](http://s.noc.net.cn/)，获过全国二等奖。对大学和再以后的工作还挺迷茫的，目前的目标是[杭电](https://www.hdu.edu.cn/)。  
+坐标杭州，2023级本科  
 道格拉斯·亚当斯在遗作`The Salmon of Doubt`里写过“科技三定律”[^1]，我希望自己能“违背”它，一生保持对世界的好奇和对技术的热爱。  
 联系我：i#stydxm.com（按惯例把#换成@）
+![](https://s1.ax1x.com/2023/08/19/pP3vVCq.png)
+<sup>2023.8.13凌晨摄于牵牛岗</sup>
 
 # 关于这个博客
 目前的技术栈是[hexo](https://hexo.io)，使用[Icarus](https://github.com/ppoffice/hexo-theme-icarus)主题，托管在[Cloudflare Pages](https://pages.cloudflare.com/)。博客中的图片大多托管在[路过图床](https://imgtu.com/)。对于博客本身的更新会写在[这篇文章](./2022/07/25/hello-world/)里。  
+
 ## 对于独立博客的一点想法
 博客繁盛于一二十年前，然而在现在这个互联网不再互联而是被国内外大厂割据的时代，仍有相当一部分人（似乎几乎都是技术人员）还在做独立博客，坚持这种看似不合时宜的形式，像茫茫大海上的一座座孤岛。但独立博客是脆弱的，没有平台的支持，即使不论有没有人看，要维持一个博客也并不容易。尤其是在早年，服务器和带宽非常昂贵，还需要用图床这类服务来节省带宽，如今看到的那时候的文章很多也在感慨成本高昂。  
 如今有了[netlify](https://www.netlify.com/)、[vercel](https://vercel.com/)和各种pages这些可以免费使用且限制不多、上传方便的静态页面托管服务，文章也可以放在[GitHub](https://github.com/) [Gitlab](https://gitlab.com/)这些地方，这些SaaS服务让我们不需要花钱就可以维持网站的运行，甚至像[Cloudflare](https://www.cloudflare.com/) [G-Core Labs](https://gcorelabs.com/)这些服务商还提供了免费高质量~~（大陆地区除外）~~的CDN，博客成本变得无限低，但独立博客仍然不多，为什么？  
