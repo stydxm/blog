@@ -2,6 +2,7 @@
 title: Google I/O Connect 2023
 toc: true
 date: 2023-09-07 20:20:36
+updated: 2023-11-07 16:48:00
 categories: 流水账
 cover: https://s1.ax1x.com/2023/09/10/pPcXPnf.md.png
 excerpt: 我就像那只混进狼群的哈士奇
@@ -138,7 +139,7 @@ B站看到了[三太子敖丙](https://space.bilibili.com/130763764)的直播
 看他兴致勃勃地，我也不好意思打断他，听他讲完之后表示谢意就跑了  
 然后，突然发现他的挂牌挂绳是代表主旨演讲嘉宾的红色，瞥到一眼腰间别着的工牌上的名字，发现是Jason Mayes  
 对，前面提到那个Google Web ML的主管  
-是的……Google Web机器学习的主管，叫我机器学习……
+是的……Google Web机器学习的主管，教我机器学习……
 
 # 回家
 再看两眼中国馆
