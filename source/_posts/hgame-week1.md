@@ -3,16 +3,16 @@ title: HGAME Week1
 toc: true
 date: 2024-01-31 02:19:11
 categories: 技术
-cover: 安全
+tags: 安全
 ---
 # HGAME
-出于一些机缘巧合，暑假里加入了[Vidar-Team](https://vidar.club/)的新生群，逐渐开始了解CTF，八月打了一段时间的hgame-mini，一度（指大佬还没来的时候）排到了第一页  
-虽然加入vidar基本没有可能，但也有幸认识了一些成员，尤其是[Answer](https://4nsw3r.top/)和[eking](https://ek1ng.com/)对我帮助非常大，也很感谢[baimeow](https://baimeow.cn/)和[potato](https://potat0.cc/)带我加入了[DN11](https://dn11.top/)，对计网有了点更深入的了解  
+出于一些机缘巧合，暑假里加入了[Vidar-Team](https://vidar.club/)的新生群，逐渐开始了解CTF<!--more-->，八月打了一段时间的hgame-mini，一度（指大佬还没来的时候）排到了第一页  
+虽然加入vidar基本没有可能，但也有幸认识了一些成员，这里特别要感谢[Answer](https://4nsw3r.top/)和[eking](https://ek1ng.com/)的无私奉献对我帮助非常大，也很感谢[baimeow](https://baimeow.cn/)和[potato](https://potat0.cc/)带我加入了[DN11](https://dn11.top/)，对计网有了点更深入的了解  
 开学后各种事情以及开发任务逐渐增加，同时也很难找到队友，甚至于参加省赛时三个人的队伍剩下两个人一道题都没做出来，我只能选择放弃了安全这个方向。杭电的学长们一直在提的HGAME这会儿开始了，也就在寒假里抽空随便做点吧，应该是~~根本不存在的~~生涯中最后一赛了
 
 # MISC
 ## 签到
-![](https://s11.ax1x.com/2024/01/31/pFKRdu8.png)
+![](https://s11.ax1x.com/2024/02/25/pFaAenx.png)
 ```
 hgame{welc0m3_t0_HGAME_2024}
 ```
@@ -76,7 +76,7 @@ hgame{b5619c116a434cda50308d84f381ea85124d1b2e}
 打开靶机，啊这正方教务的UI……
 ![](https://s11.ax1x.com/2024/01/31/pFKRrNj.png)
 所有课都显示已满，点击有弹窗提示`课程已满！`
-![](https://s11.ax1x.com/2024/01/31/pFKRs4s.png)
+![](https://s11.ax1x.com/2024/02/25/pFaAEcR.png)
 打开开发者工具，发现点击选课按钮的时候会POST请求`/api/courses`，payload为`{"id":1}`，返回`{"full":1,"message":"课程已满"}`  
 点右上选完了按钮会请求`/api/ok`并返回`{message: "呜呜呜，还没选上课呢！"}`  
 查看源码还可以发现课程列表来自GET请求`/api/courses`  
