@@ -8,6 +8,8 @@ cover: https://s1.ax1x.com/2023/09/10/pPcXPnf.md.png
 excerpt: 我就像那只混进狼群的哈士奇
 ---
 
+> 本文图片可见[相册](https://gallery.stydxm.com/activity/google-io-connect-2023/)
+
 八月看到了谷歌发了篇[推文](https://mp.weixin.qq.com/s/ipdWxBQJUuuRwheACY7aIQ)，反正暑假也没什么事，就报了个名  
 报名表里有职位这么个选项，同时又觉得谷歌开发者大会的审核可能并不容易通过（而且这是io connect而不是往年的summit），刚好在朋友的~~空壳~~公司挂了~~虚职~~CTO，就写了个C-level高管 ~~（不到二十岁，事CTO）~~ ，于是半个多月之后……  
 ![](https://s1.ax1x.com/2023/09/07/pPysskd.png)
