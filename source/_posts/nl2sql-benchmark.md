@@ -111,7 +111,7 @@ for i in list(sorted(count)):
 
 而在SParC的论文[^2]中提到了，这是受Spider[^5]的启发
 
-> Following Yu et al. (2018c), we use the exact set match metric to compute the accuracy between gold and predicted SQL answers. Instead of simply employing string match, Yu et al. (2018c) decompose predicted queries into different SQL clauses such as SELECT, WHERE, GROUP BY, and ORDER BY and compute scores for each clause using set matching separately11.
+> Following Yu et al. (2018c), we use the exact set match metric to compute the accuracy between gold and predicted SQL answers. Instead of simply employing string match, Yu et al. (2018c) decompose predicted queries into different SQL clauses such as SELECT, WHERE, GROUP BY, and ORDER BY and compute scores for each clause using set matching separately.
 
 这么做的原因是为了提高打分的精确度，以及对不同操作进行更细粒度的评测
 
