@@ -127,3 +127,11 @@ Segmentation fault
 > 使用 `sudo switch-gl gl4es` 再重启后使用 `LIBGL_ALWAYS_SOFTWARE=true rviz2 here` 启动
 
 为了在`ros2 launch`时启动rviz2，我用export命令设置环境变量
+
+## rviz2帧率太低
+
+rviz并不能支持th1520的GPU，所以要正常启动就必须将渲染模式改为软解，即设置上面提到的环境变量
+
+因为CPU本来就很弱，使用软解只有个位数的帧率，操作体验非常难受
+
+这里我选择使用ros2的多机通信功能，即在开发板上和另一台性能足够的电脑上设置相同的`ROS_DOMAIN_ID`，然后在电脑上启动rviz2，这样就能解决性能问题，流畅使用rviz2了
