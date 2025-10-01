@@ -5,6 +5,7 @@ date: 2025-01-29 02:58:39
 categories: 技术
 cover: https://s21.ax1x.com/2025/01/29/pEVNiJP.md.jpg
 excerpt: 没想到啊，这么顺利？
+tag: ROS
 ---
 
 # 起因
@@ -27,7 +28,7 @@ excerpt: 没想到啊，这么顺利？
 
 > 这里要吐槽一下，他家有`livox_ros_driver` `livox_ros_driver2` `livox_ros2_driver`，不光代码很屎山，名字还起的这么绕
 
-[^2]: 这里使用的不是[官方仓库](https://github.com/Livox-SDK/livox_ros_driver2)的，而是[一个第三方修改版](https://github.com/SMBU-PolarBear-Robotics-Team/livox_ros_driver2)，实际功能等都没有变化，只是让代码变得没有那么💩。我后来还提交了[一个PR](https://github.com/SMBU-PolarBear-Robotics-Team/livox_ros_driver2)
+[^2]: 这里使用的不是[官方仓库](https://github.com/Livox-SDK/livox_ros_driver2)的，而是[一个第三方修改版](https://github.com/SMBU-PolarBear-Robotics-Team/livox_ros_driver2)，实际功能等都没有变化，只是让代码变得没有那么💩。我后来还提交了[一个PR](https://github.com/SMBU-PolarBear-Robotics-Team/livox_ros_driver2/pull/2)
 
 ![](https://s21.ax1x.com/2025/01/29/pEVNpdA.jpg)
 
