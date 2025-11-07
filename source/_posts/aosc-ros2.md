@@ -35,6 +35,8 @@ flake8是一个代码检查工具，虽然没有直接用到，但ROS里很多Py
 
 相关PR：https://github.com/AOSC-Dev/aosc-os-abbs/pull/12823
 
+11.7更新：由于社区反馈建议分开，就拆成了多个PR
+
 ## ROS构建目标
 
 在[所有的ROS版本中](https://docs.ros.org/en/rolling/Releases.html)，现在还在生命周期中的正式版有三个。其中Kilted不是LTS版本，而Humble比较老，依赖版本比较低，因此选择最新的LTS版本Jazzy。查看[文档中对依赖库版本的需求](https://www.ros.org/reps/rep-2000.html#jazzy-jalisco-may-2024-may-2029)均能满足，决定将目标distribution定为Jazzt Jalisco
