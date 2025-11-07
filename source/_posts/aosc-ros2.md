@@ -13,6 +13,8 @@ cover:
 
 <!--more-->
 
+2025.11.7更新：得益于AOSC的构建系统，也幸好ros2源码中没有太多架构特定的代码，ROS Jazzy desktop除Mimick相关的所有包在amd64/arm64/loongarch64/riscv64/ppc64el/mips均构建通过（但还未测试，估计也不会有人在ppc和mips这些平台上用）
+
 ## 准备工作
 
 ### [colcon](http://colcon.readthedocs.io/)
@@ -33,9 +35,19 @@ flake8是一个代码检查工具，虽然没有直接用到，但ROS里很多Py
 
 主要涉及到mypy、lttng等一大堆东西
 
-相关PR：https://github.com/AOSC-Dev/aosc-os-abbs/pull/12823
+~~相关PR：https://github.com/AOSC-Dev/aosc-os-abbs/pull/12823~~
 
-11.7更新：由于社区反馈建议分开，就拆成了多个PR
+2025.11.7更新：由于社区反馈建议分开，就拆成了多个PR
+
+- https://github.com/AOSC-Dev/aosc-os-abbs/pull/12838
+- https://github.com/AOSC-Dev/aosc-os-abbs/pull/12839
+- https://github.com/AOSC-Dev/aosc-os-abbs/pull/12843
+- https://github.com/AOSC-Dev/aosc-os-abbs/pull/12844
+- https://github.com/AOSC-Dev/aosc-os-abbs/pull/12845
+- https://github.com/AOSC-Dev/aosc-os-abbs/pull/12846
+- https://github.com/AOSC-Dev/aosc-os-abbs/pull/12847
+- https://github.com/AOSC-Dev/aosc-os-abbs/pull/12881
+- https://github.com/AOSC-Dev/aosc-os-abbs/pull/12883
 
 ## ROS构建目标
 
@@ -45,7 +57,7 @@ flake8是一个代码检查工具，虽然没有直接用到，但ROS里很多Py
 
 ~~我暂时将目标Variant定为base，如进展顺利再尝试打包更多包以达到desktop~~
 
-11.7更新：打包base时没有遇到太多问题，然后再花了一些时间打出了dekstop
+2025.11.7更新：打包base时没有遇到太多问题，然后再花了一些时间打出了dekstop
 
 ## 编写脚本生成打包脚本
 
@@ -106,6 +118,8 @@ except FileNotFoundError:
 except yaml.YAMLError as e:
     print(f"返回值解析错误: {e}", file=sys.stderr)
 ```
+
+注意[rosinstall](https://wiki.ros.org/rosinstall)和[rosinstall-generator](https://github.com/ros-infrastructure/rosinstall_generator)是两个不同的包
 
 ### 解析包信息
 #### 版本
