@@ -35,7 +35,7 @@ flake8是一个代码检查工具，虽然没有直接用到，但ROS里很多Py
 
 主要涉及到mypy、lttng等一大堆东西
 
-~~相关PR：https://github.com/AOSC-Dev/aosc-os-abbs/pull/12823~~
+~~ 相关PR：https://github.com/AOSC-Dev/aosc-os-abbs/pull/12823 ~~
 
 2025.11.7更新：由于社区反馈建议分开，就拆成了多个PR
 
@@ -55,7 +55,7 @@ flake8是一个代码检查工具，虽然没有直接用到，但ROS里很多Py
 
 [REP 2001](https://www.ros.org/reps/rep-2001.html#jazzy-jalisco-may-2024-may-2029)中规定了每个版本的不同变种，Jazzy有六个，其中最低的是ROS Core，其次是ROS Base
 
-~~我暂时将目标Variant定为base，如进展顺利再尝试打包更多包以达到desktop~~
+~~ 我暂时将目标Variant定为base，如进展顺利再尝试打包更多包以达到desktop ~~
 
 2025.11.7更新：打包base时没有遇到太多问题，然后再花了一些时间打出了dekstop
 
