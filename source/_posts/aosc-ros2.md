@@ -316,6 +316,8 @@ else:
 
 通过以上步骤，整合代码，写出完整程序
 
+这里需要注意的是，由于GitHub的风控机制，需要分多次运行或填入个人apikey
+
 <details>
 <summary>展开程序</summary>
 
@@ -336,7 +338,7 @@ rosdistro = "jazzy"
 print("Fetching rosdep map...")
 rosdep_map: dict[str, dict] = yaml.safe_load(
     requests.get(
-        "https://ghfast.top/https://github.com/ros/rosdistro/raw/refs/heads/master/rosdep/base.yaml"
+        "https://github.com/ros/rosdistro/raw/refs/heads/master/rosdep/base.yaml"
     ).text
 )
 
@@ -408,37 +410,37 @@ class Package:
             f"https://api.github.com/repos/{repo}/contents?ref={version}"
         )
         self.package_xml_url = (
-            f"https://ghfast.top/{uri[:-4]}/raw/refs/tags/{version}/package.xml"
+            f"{uri[:-4]}/raw/refs/tags/{version}/package.xml"
         )
         self.dependencies = [f"ros-{rosdistro}-ros-workspace"]
         self.build_dependencies = []
-
-    def add_builddep(self, rosdep_key):
-        package_name = rosdep_key_to_package_name(rosdep_key)
-        if (
-            package_name not in self.dependencies
-            and package_name not in self.build_dependencies
-        ):
-            self.build_dependencies.append(package_name)
 
     def get_metadata(self):
         assert self.package_xml_url
         package_xml_string = requests.get(self.package_xml_url).text
         packge_info = ET.fromstring(package_xml_string)
-        for elment in packge_info.findall("depend"):
-            self.dependencies.append(rosdep_key_to_package_name(elment.text))
-        for elment in packge_info.findall("exec_depend"):
-            self.dependencies.append(rosdep_key_to_package_name(elment.text))
-        for elment in packge_info.findall("build_export_depend"):
-            self.dependencies.append(rosdep_key_to_package_name(elment.text))
-        for elment in packge_info.findall("buildtool_export_depend"):
-            self.dependencies.append(elment.text)
-        for elment in packge_info.findall("buildtool_depend"):
-            self.add_builddep(elment.text)
-        for elment in packge_info.findall("build_depend"):
-            self.add_builddep(elment.text)
-        for elment in packge_info.findall("test_depend"):
-            self.add_builddep(elment.text)
+        pkgdep = (
+            packge_info.findall("depend")
+            + packge_info.findall("exec_depend")
+            + packge_info.findall("build_export_depend")
+            + packge_info.findall("buildtool_export_depend")
+        )
+        builddep = (
+            packge_info.findall("buildtool_depend")
+            + packge_info.findall("build_depend")
+            + packge_info.findall("test_depend")
+        )
+        for package in pkgdep:
+            packge_name = rosdep_key_to_package_name(package)
+            if packge_name not in self.dependencies:
+                self.dependencies.append(packge_name)
+        for package in builddep:
+            package_name = rosdep_key_to_package_name(package)
+            if (
+                package_name not in self.dependencies
+                and package_name not in self.build_dependencies
+            ):
+                self.build_dependencies.append(package_name)
         raw_description = packge_info.findall("description")[0].text.splitlines()
         self.description = self.name
         for line in raw_description:
@@ -446,6 +448,9 @@ class Package:
             if clean_line:
                 self.description = clean_line
                 break
+        if self.description.endswith("."):
+            self.description = self.description[:-1]
+        self.description = self.description.replace("`", "\\`")
         file_list = requests.get(self.file_list_url).json()
         has_pyproject = False
         has_setup_py = False
@@ -491,13 +496,14 @@ ABSPLITDBG=0
             defines_content += """NOPYTHON2=1
 ABHOST=noarch
 """
+        else:
+            defines_content += "NOSTATIC=0\n"
         if self.build_type == "cmakeninja":
             defines_content += f"""CMAKE_AFTER=(
     "-DCMAKE_PREFIX_PATH=/opt/ros/jazzy"
     "-DBUILD_TESTING=OFF"
 )
 """
-        defines_content += "NOSTATIC=0\n"
         return defines_content
 
 
@@ -517,7 +523,7 @@ def write_file(new_package: Package):
             return
         spec = new_package.generate_spec()
         defines = new_package.generate_defines()
-        prepare = f"""export PYTHONPATH=/opt/ros/{rosdistro}/lib/python3.10/site-packages/
+        prepare = f"""export PYTHONPATH=/opt/ros/{rosdistro}/lib/python${{ABPY3VER}}/site-packages/
 export PKG_CONFIG_PATH=/opt/ros/jazzy/lib/pkgconfig
 . /opt/ros/jazzy/setup.sh
 """
